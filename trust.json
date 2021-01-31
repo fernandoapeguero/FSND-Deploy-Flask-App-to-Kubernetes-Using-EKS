@@ -1,0 +1,7 @@
+{ "Version": "2012-10-17",
+    "Statement":[{
+       "Effect": "Allow",
+       "Principal": {"AWS":"arn:aws:iam::496614360292:user/home-computer"},
+       "Action": "sts:AssumeRole"
+    }]
+    }
